@@ -3,6 +3,6 @@ from bottle import *
 
 @route('/')
 def index():
-    return "Bottle forrit í pyCharm bla bla "
+    return "Hallo heimur"
 
 run(host='0.0.0.0', port=os.environ.get('PORT'))
